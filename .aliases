@@ -33,3 +33,6 @@ alias egrep='egrep --color=auto'
 
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
+
+# Get macOS Software Updates, and update Homebrew
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup'
